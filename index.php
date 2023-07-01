@@ -23,7 +23,8 @@
                                 echo "<th scope='col'>" . ucfirst($key) . "</th>";
                             } 
                         ?>
-                        <th scope="col">Actions</th>   
+                        <th scope="col">Discounted price</th>
+                        <th scope="col">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,6 +42,9 @@
                                 echo "<td>$value</td>";
                             }
                             
+                            $discountedPrice = round($watch['price'] - ($watch['price'] * $watch['discount'] / 100), 2);
+                            echo "<td>$discountedPrice</td>";
+
                             echo "<td>";
                             echo "<a href=\"./show.php?watch=" . urlencode(json_encode($watch)) . "\">show</a>";
                             echo "</td>";
