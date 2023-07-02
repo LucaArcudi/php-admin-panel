@@ -16,6 +16,8 @@ function getWatchByIndex ($index) {
 
 function createWatch ($data) {
     $watches = getWatches();
+    $data['price'] = floatval($data['price']);
+    $data['discount'] = intval($data['discount']);
     $watches[] = $data;
     updateJson($watches);
     return $data;
@@ -23,6 +25,8 @@ function createWatch ($data) {
 
 function updateWatch ($data, $index) {
     $watch = getWatchByIndex ($index);
+    $data['price'] = floatval($data['price']);
+    $data['discount'] = intval($data['discount']);
     $updatedWatch = array_merge($watch, $data);
     $watches = getWatches();
     $watches[$index] = $updatedWatch;
