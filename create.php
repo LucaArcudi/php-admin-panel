@@ -1,59 +1,27 @@
 <?php
+    include 'partials/header.php';
+    require_once __DIR__.'/watches/watches.php';
 
-include_once __DIR__ . '/read.php';
+    $watch = [
+        'brand' => '',
+        'model' => '',
+        'description' => '',
+        'price' => '',
+        'discount' => '',
+        'type' => '',
+        'strap' => '',
+    ];
 
-$newWatch = [];
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $watch = createWatch($_POST);
+        header('Location: index.php');
+    }
 
-if (empty($newWatch)) {
-    if (!empty($_POST['brand'])) {
-        $newWatch['brand'] = $_POST['brand'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['model'])) {
-        $newWatch['model'] = $_POST['model'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['description'])) {
-        $newWatch['description'] = $_POST['description'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['price'])) {
-        $newWatch['price'] = $_POST['price'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['discount'])) {
-        $newWatch['discount'] = $_POST['discount'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['type'])) {
-        $newWatch['type'] = $_POST['type'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }
-    if (!empty($_POST['strap'])) {
-        $newWatch['strap'] = $_POST['strap'];
-    } else {
-        header("Location: create-view.php");
-        exit;
-    }  
-}
+?>
 
-if (!empty($newWatch)) {
-    $watches[] = $newWatch;
-    $newWatches = json_encode($watches);
-    file_put_contents('./db/db-watches.json', $newWatches);
-    header("Location: index.php");
-    exit;
-}
+
+<?php include './partials/create-update-form.php' ?>
+
+
+<?php include 'partials/footer.php'?>
 

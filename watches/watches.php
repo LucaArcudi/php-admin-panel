@@ -15,7 +15,10 @@ function getWatchById ($id) {
 }
 
 function createWatch ($data) {
-
+    $watches = getWatches();
+    $watches[] = $data;
+    updateJson($watches);
+    return $data;
 }
 
 function updateWatch ($data, $id) {
@@ -23,9 +26,13 @@ function updateWatch ($data, $id) {
     $updatedWatch = array_merge($watch, $data);
     $watches = getWatches();
     $watches[$id] = $updatedWatch;
-    file_put_contents(__DIR__.'/../db/db-watches.json', json_encode($watches, JSON_PRETTY_PRINT));
+    updateJson($watches);
 }
 
 function deleteWatch ($id) {
 
+}
+
+function updateJson($watches) {
+    file_put_contents(__DIR__.'/../db/db-watches.json', json_encode($watches, JSON_PRETTY_PRINT));
 }

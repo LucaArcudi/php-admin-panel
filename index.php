@@ -10,13 +10,13 @@
                 <tr>
                     <th scope="col">Brand</th>
                     <th scope="col">Model</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Discount</th>
                     <th scope="col">Type</th>
                     <th scope="col">Strap</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Discount</th>
                     <th scope="col">Discounted price</th>
                     <th scope="col">
-                        <a class="btn btn-success" href="./create-view.php">Add a new watch</a>
+                        <a class="btn btn-success" href="./create.php">Add a new watch</a>
                     </th>
                 </tr>
             </thead>
@@ -25,6 +25,8 @@
                     <tr data-index='<?php echo $index?>'>
                         <td><?php echo $watch['brand'] ?></td>
                         <td><?php echo $watch['model'] ?></td>
+                        <td><?php echo $watch['type'] ?></td>
+                        <td><?php echo $watch['strap'] ?></td>
                         <td><?php echo '&euro;'.$watch['price'] ?></td>
                         <td>
                             <?php
@@ -35,8 +37,6 @@
                                 } 
                             ?>
                         </td>
-                        <td><?php echo $watch['type'] ?></td>
-                        <td><?php echo $watch['strap'] ?></td>
                         
                         <td>
                             <?php
@@ -50,7 +50,7 @@
                             <a class='btn btn-outline-danger' href='show.php?id=<?php echo $index ?>'>delete</a>
                         </td>
                     </tr>
-                <?php endforeach ?>
+                <?php endforeach; ?>
             </tbody>
         </table>
     </div>
