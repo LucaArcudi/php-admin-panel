@@ -1,12 +1,12 @@
 <?php
-    include 'partials/header.php';
+    include_once 'partials/header.php';
     require_once __DIR__.'/watches/watches.php';
-    if (!isset($_GET['id'])) {
+    if (!isset($_GET['index'])) {
         include 'partials/not-found.php';
         exit;
     }
-    $watchId = $_GET['id'];
-    $watch = getWatchById($watchId);
+    $watchindex = $_GET['index'];
+    $watch = getWatchByindex($watchindex);
     if (!$watch) {
         include 'partials/not-found.php';
         exit;
@@ -44,7 +44,11 @@
                 </p>
             </div>
             <div class="card-footer text-body-secondary">
-                <a href="./index.php" class="btn btn-primary">Index</a>
+                <a href="./update.php?index=<?php echo $watchindex ?>" class="btn btn-outline-warning">Update</a>
+                <form class="d-inline" action="delete.php" method="POST">
+                    <input type="hidden" name="index" value="<?php echo $watchindex ?>">
+                    <button class='btn btn-outline-danger'>Delete</button>
+                </form>
             </div>
         </div>
     </div>

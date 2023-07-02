@@ -4,10 +4,11 @@
             <div class="card-header">
                 <div class="mb-3">
                     <h3>
-                        <?php if (!isset($watchId)): ?>
+                        <?php if (!isset($watchIndex)): ?>
                             <?php echo 'Create a new watch' ?>
                         <?php else: ?>
                             <?php echo 'Update watch' ?>
+                            <a class='btn btn-outline-info' href='show.php?index=<?php echo $watchIndex ?>'>Show</a>
                         <?php endif; ?>
                     </h3>
                 </div>
@@ -42,7 +43,7 @@
                         <label for="strap" class="form-label">Strap</label>
                         <input type="text" class="form-control" id="strap" name="strap" value="<?php echo $watch['strap'] ?>">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-outline-primary">Submit</button>
                 </form>
             </div>
         </div>

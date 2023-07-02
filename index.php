@@ -1,5 +1,5 @@
 <?php
-    include 'partials/header.php';
+    include_once 'partials/header.php';
     require_once __DIR__.'/watches/watches.php';
     $watches = getWatches();
 ?>
@@ -16,7 +16,7 @@
                     <th scope="col">Discount</th>
                     <th scope="col">Discounted price</th>
                     <th scope="col">
-                        <a class="btn btn-success" href="./create.php">Add a new watch</a>
+                        <a class="btn btn-outline-success" href="./create.php">Add a new watch</a>
                     </th>
                 </tr>
             </thead>
@@ -45,9 +45,12 @@
                             ?>
                         </td>
                         <td>
-                            <a class='btn btn-outline-info' href='show.php?id=<?php echo $index ?>'>show</a>
-                            <a class='btn btn-outline-warning' href='update.php?id=<?php echo $index ?>'>edit</a>
-                            <a class='btn btn-outline-danger' href='show.php?id=<?php echo $index ?>'>delete</a>
+                            <a class='btn btn-outline-info' href='show.php?index=<?php echo $index ?>'>Show</a>
+                            <a class='btn btn-outline-warning' href='update.php?index=<?php echo $index ?>'>Update</a>
+                            <form class="d-inline" action="delete.php" method="POST">
+                                <input type="hidden" name="index" value="<?php echo $index ?>">
+                                <button class='btn btn-outline-danger'>Delete</button>
+                            </form>
                         </td>
                     </tr>
                 <?php endforeach; ?>

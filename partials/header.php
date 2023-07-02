@@ -10,6 +10,8 @@
     <body>
         <header>
             <div class="container">
-                <h1>Admin Panel</h1>
+                <h1>
+                    <a class="btn btn-primary btn-lg" href="./index.php">Admin Panel</a>
+                </h1>
             </div>
         </header>

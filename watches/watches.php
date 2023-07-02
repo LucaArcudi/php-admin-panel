@@ -6,10 +6,10 @@ function getWatches () {
     return $watches;
 }
 
-function getWatchById ($id) {
+function getWatchByIndex ($index) {
     $watches = getWatches();
-    if (array_key_exists($id, $watches)){
-        return $watches[$id];
+    if (array_key_exists($index, $watches)){
+        return $watches[$index];
     }
     return null;
 }
@@ -21,16 +21,18 @@ function createWatch ($data) {
     return $data;
 }
 
-function updateWatch ($data, $id) {
-    $watch = getWatchById ($id);
+function updateWatch ($data, $index) {
+    $watch = getWatchByIndex ($index);
     $updatedWatch = array_merge($watch, $data);
     $watches = getWatches();
-    $watches[$id] = $updatedWatch;
+    $watches[$index] = $updatedWatch;
     updateJson($watches);
 }
 
-function deleteWatch ($id) {
-
+function deleteWatch ($index) {
+    $watches = getWatches();
+    array_splice($watches, $index, 1);
+    updateJson($watches);
 }
 
 function updateJson($watches) {

@@ -1,5 +1,5 @@
 <?php
-    include 'partials/header.php';
+    include_once 'partials/header.php';
     require_once __DIR__.'/watches/watches.php';
 
     $watch = [
