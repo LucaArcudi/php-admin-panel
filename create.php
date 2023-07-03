@@ -68,9 +68,7 @@
             $errors['strap'] = 'Strap is required.';
         }
 
-        if ($isValid) {
-            // $watch['price'] = intval($watch['price']);
-            // $watch['discount'] = floatval($watch['price']);            
+        if ($isValid) {         
             $watch = createWatch($_POST);
             header('Location: index.php');
         }
@@ -80,8 +78,8 @@
 ?>
 
 
-<?php include './partials/create-update-form.php' ?>
+<?php include_once './partials/create-update-form.php' ?>
 
 
-<?php include 'partials/footer.php'?>
+<?php include_once 'partials/footer.php'?>
 

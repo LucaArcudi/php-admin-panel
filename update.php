@@ -76,7 +76,7 @@
 ?>
 
 
-<?php include './partials/create-update-form.php' ?>
+<?php include_once './partials/create-update-form.php' ?>
 
 
-<?php include 'partials/footer.php'?>
+<?php include_once 'partials/footer.php'?>

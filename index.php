@@ -14,7 +14,10 @@
                     <th scope="col">Strap</th>
                     <th scope="col">Price</th>
                     <th scope="col">Discount</th>
-                    <th scope="col">Discounted price</th>
+                    <th scope="col">
+                        <a id="sortDiscountedPrice" class="btn btn-outline-secondary">Discounted price</a>
+                    </th>
+
                     <th scope="col">
                         <a class="btn btn-outline-success" href="./create.php">Add a new watch</a>
                     </th>
@@ -58,4 +61,5 @@
         </table>
     </div>
 </main>
-<?php include 'partials/footer.php' ?>
+<script src="./JS/script.js"></script>
+<?php include_once 'partials/footer.php' ?>
