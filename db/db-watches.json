@@ -1,15 +1,6 @@
 [
     {
         "brand": "Sole",
-        "model": "X3",
-        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "price": 89.9899999999999948840923025272786617279052734375,
-        "discount": 10,
-        "type": "analog",
-        "strap": "leather"
-    },
-    {
-        "brand": "Sole",
         "model": "X4",
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "price": 49.99000000000000198951966012828052043914794921875,
