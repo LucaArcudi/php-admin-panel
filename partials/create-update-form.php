@@ -4,9 +4,9 @@
             <div class="card-header">
                 <div class="mb-3">
                     <h3>
-                        <?php if (!isset($watchIndex)): ?>
+                        <?php if (!isset($watchIndex)) : ?>
                             <?php echo 'Create a new watch' ?>
-                        <?php else: ?>
+                        <?php else : ?>
                             <?php echo 'Update watch' ?>
                             <a class='btn btn-outline-info' href='show.php?index=<?php echo $watchIndex ?>'>Show</a>
                             <form class="d-inline" action="delete.php" method="POST">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="description" class="form-label" >Description</label>
+                        <label for="description" class="form-label">Description</label>
                         <textarea class="form-control <?php echo $errors['description'] ? 'is-invalid' : '' ?>" id="description" name="description" rows="4"><?php echo $watch['description'] ?></textarea>
                         <div class="invalid-feedback" id="descriptionError">
                             <?php echo $errors['description'] ?>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="discount" class="form-label">Discount</label>
-                        <input type="number"  class="form-control <?php echo $errors['discount'] ? 'is-invalid' : '' ?>" id="discount" name="discount" value="<?php echo $watch['discount'] ?>">
+                        <input type="number" class="form-control <?php echo $errors['discount'] ? 'is-invalid' : '' ?>" id="discount" name="discount" value="<?php echo $watch['discount'] ?>">
                         <div class="invalid-feedback" id="discountError">
                             <?php echo $errors['discount'] ?>
                         </div>

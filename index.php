@@ -1,7 +1,7 @@
 <?php
-    include_once 'partials/header.php';
-    require_once __DIR__.'/watches/watches.php';
-    $watches = getWatches();
+include_once 'partials/header.php';
+require_once __DIR__ . '/watches/watches.php';
+$watches = getWatches();
 ?>
 <main>
     <div class="container">
@@ -43,27 +43,27 @@
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($watches as $index => $watch): ?>
-                    <tr data-index='<?php echo $index?>'>
+                <?php foreach ($watches as $index => $watch) : ?>
+                    <tr data-index='<?php echo $index ?>'>
                         <td><?php echo $watch['brand'] ?></td>
                         <td><?php echo $watch['model'] ?></td>
                         <td><?php echo $watch['type'] ?></td>
                         <td><?php echo $watch['strap'] ?></td>
-                        <td><?php echo '&euro;'.$watch['price'] ?></td>
+                        <td><?php echo '&euro;' . $watch['price'] ?></td>
                         <td>
                             <?php
-                                if ($watch['discount'] !== 0) {
-                                    echo $watch['discount'].'&percnt;';
-                                } else {
-                                    echo $watch['discount'];
-                                } 
+                            if ($watch['discount'] !== 0) {
+                                echo $watch['discount'] . '&percnt;';
+                            } else {
+                                echo $watch['discount'];
+                            }
                             ?>
                         </td>
-                        
+
                         <td>
                             <?php
                             $discountedPrice = round($watch['price'] - ($watch['price'] * $watch['discount'] / 100), 2);
-                            echo '&euro;'.$discountedPrice; 
+                            echo '&euro;' . $discountedPrice;
                             ?>
                         </td>
                         <td>

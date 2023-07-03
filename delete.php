@@ -8,4 +8,3 @@
 
     deleteWatch($watchIndex);
     header('Location: index.php');
-?>

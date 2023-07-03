@@ -27,7 +27,7 @@ form.addEventListener('submit', function (event) {
     if (priceInput.value.trim() === '' || !/^\d+(\.\d{1,2})?$/.test(priceInput.value)) {
         showError(priceInput, 'Please enter a valid price with up to two decimal places.');
         return;
-    }    
+    }
     if (discountInput.value.trim() !== '' && (isNaN(parseInt(discountInput.value)) || parseInt(discountInput.value) < 0 || parseInt(discountInput.value) > 100)) {
         showError(discountInput, 'Please enter a valid discount between 0 and 100.');
         return;
@@ -63,6 +63,6 @@ function clearValidationErrors() {
 }
 
 
-  
-  
+
+
 
