@@ -9,6 +9,10 @@
                         <?php else: ?>
                             <?php echo 'Update watch' ?>
                             <a class='btn btn-outline-info' href='show.php?index=<?php echo $watchIndex ?>'>Show</a>
+                            <form class="d-inline" action="delete.php" method="POST">
+                                <input type="hidden" name="index" value="<?php echo $watchIndex ?>">
+                                <button class='btn btn-outline-danger' onclick="confirmDelete(event)">Delete</button>
+                            </form>
                         <?php endif; ?>
                     </h3>
                 </div>

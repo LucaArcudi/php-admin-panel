@@ -71,7 +71,7 @@
                             <a class='btn btn-outline-warning' href='update.php?index=<?php echo $index ?>'>Update</a>
                             <form class="d-inline" action="delete.php" method="POST">
                                 <input type="hidden" name="index" value="<?php echo $index ?>">
-                                <button class='btn btn-outline-danger'>Delete</button>
+                                <button class='btn btn-outline-danger' onclick="confirmDelete(event)">Delete</button>
                             </form>
                         </td>
                     </tr>
@@ -80,5 +80,5 @@
         </table>
     </div>
 </main>
-<script src="./JS/script.js"></script>
+<script src="./JS/filtering.js"></script>
 <?php include_once 'partials/footer.php' ?>

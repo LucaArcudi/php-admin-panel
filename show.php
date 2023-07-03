@@ -5,8 +5,8 @@
         include 'partials/not-found.php';
         exit;
     }
-    $watchindex = $_GET['index'];
-    $watch = getWatchByindex($watchindex);
+    $watchIndex = $_GET['index'];
+    $watch = getWatchByindex($watchIndex);
     if (!$watch) {
         include 'partials/not-found.php';
         exit;
@@ -44,10 +44,10 @@
                 </p>
             </div>
             <div class="card-footer text-body-secondary">
-                <a href="./update.php?index=<?php echo $watchindex ?>" class="btn btn-outline-warning">Update</a>
+                <a href="./update.php?index=<?php echo $watchIndex ?>" class="btn btn-outline-warning">Update</a>
                 <form class="d-inline" action="delete.php" method="POST">
-                    <input type="hidden" name="index" value="<?php echo $watchindex ?>">
-                    <button class='btn btn-outline-danger'>Delete</button>
+                    <input type="hidden" name="index" value="<?php echo $watchIndex ?>">
+                    <button class='btn btn-outline-danger' onclick="confirmDelete(event)">Delete</button>
                 </form>
             </div>
         </div>
