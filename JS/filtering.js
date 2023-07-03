@@ -133,10 +133,10 @@ function filterWatches() {
     priceRangeSelect.innerHTML = '';
   
     let priceRanges = {
+      'all': 'All',
       '40-80': '€40 - €80',
       '80-120': '€80 - €120',
       '120-160': '€120 - €160',
-      'all': 'All',
     };
   
     for (const key in priceRanges) {
