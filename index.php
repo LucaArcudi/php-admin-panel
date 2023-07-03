@@ -19,8 +19,11 @@
                 <input type="checkbox" id="withoutDiscountCheckbox"> Senza sconto
             </label>
         </div>
-        <select id="priceRangeSelect">
-        </select>
+        <div class="mb-3">
+            <label for="priceRangeSelect">Price Range:</label>
+            <select id="priceRangeSelect"></select>
+        </div>
+
         <table class="table">
             <thead>
                 <tr>

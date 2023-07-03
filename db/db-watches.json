@@ -223,5 +223,23 @@
         "discount": 2,
         "type": "gggg",
         "strap": "hhh"
+    },
+    {
+        "brand": "opop",
+        "model": "opop",
+        "description": "opop opop opop",
+        "price": 35,
+        "discount": 0,
+        "type": "tre",
+        "strap": "etre"
+    },
+    {
+        "brand": "ggggggggg",
+        "model": "ggggggggggggg",
+        "description": "ggggggggggggg",
+        "price": 40,
+        "discount": 5,
+        "type": "hhhhhhhhh",
+        "strap": "fffffffffffff"
     }
 ]
