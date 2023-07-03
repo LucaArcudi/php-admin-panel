@@ -1,182 +1,218 @@
 [
     {
-        "brand": "Sole",
-        "model": "X4",
-        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "price": 49.99000000000000198951966012828052043914794921875,
-        "discount": 0,
-        "type": "analog",
-        "strap": "titanium"
+      "brand": "Sole",
+      "model": "X1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 59.99,
+      "discount": 0,
+      "type": "analog",
+      "strap": "titanium"
     },
     {
-        "brand": "Marte",
-        "model": "D1",
-        "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-        "price": 74.5,
-        "discount": 0,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Sole",
+      "model": "X2",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "price": 79.99,
+      "discount": 0,
+      "type": "analog",
+      "strap": "nylon"
     },
     {
-        "brand": "Marte",
-        "model": "D2",
-        "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-        "price": 44.5,
-        "discount": 0,
-        "type": "analog",
-        "strap": "titanium"
+      "brand": "Sole",
+      "model": "X3",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "price": 89.99,
+      "discount": 10,
+      "type": "analog",
+      "strap": "leather"
     },
     {
-        "brand": "Marte",
-        "model": "D4",
-        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-        "price": 99.5,
-        "discount": 0,
-        "type": "analog",
-        "strap": "leather"
+      "brand": "Sole",
+      "model": "X4",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "price": 49.99,
+      "discount": 0,
+      "type": "analog",
+      "strap": "titanium"
     },
     {
-        "brand": "Giove",
-        "model": "Z1",
-        "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
-        "price": 124.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "analog",
-        "strap": "leather"
+      "brand": "Marte",
+      "model": "D1",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "price": 74.50,
+      "discount": 0,
+      "type": "digital",
+      "strap": "nylon"
     },
     {
-        "brand": "Giove",
-        "model": "Z2",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-        "price": 134.990000000000009094947017729282379150390625,
-        "discount": 0,
-        "type": "digital",
-        "strap": "titanium"
+      "brand": "Marte",
+      "model": "D2",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "price": 44.50,
+      "discount": 0,
+      "type": "analog",
+      "strap": "titanium"
     },
     {
-        "brand": "Giove",
-        "model": "Z3",
-        "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-        "price": 134.990000000000009094947017729282379150390625,
-        "discount": 15,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Marte",
+      "model": "D3",
+      "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "price": 54.50,
+      "discount": 3,
+      "type": "analog",
+      "strap": "nylon"
     },
     {
-        "brand": "Giove",
-        "model": "Z4",
-        "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-        "price": 154.990000000000009094947017729282379150390625,
-        "discount": 0,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Marte",
+      "model": "D4",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "price": 99.50,
+      "discount": 0,
+      "type": "analog",
+      "strap": "leather"
     },
     {
-        "brand": "Venere",
-        "model": "N1",
-        "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce euismod massa eu dolor placerat, in egestas tellus pharetra.",
-        "price": 89.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "smart",
-        "strap": "nylon"
+      "brand": "Giove",
+      "model": "Z1",
+      "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
+      "price": 124.99,
+      "discount": 0,
+      "type": "analog",
+      "strap": "leather"
     },
     {
-        "brand": "Venere",
-        "model": "N2",
-        "description": "Donec sed velit nec nisi rhoncus tristique sit amet sit amet odio.",
-        "price": 99.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "smart",
-        "strap": "nylon"
+      "brand": "Giove",
+      "model": "Z2",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+      "price": 134.99,
+      "discount": 0,
+      "type": "digital",
+      "strap": "titanium"
     },
     {
-        "brand": "Venere",
-        "model": "N3",
-        "description": "Phasellus vel arcu leo. Nulla vitae magna hendrerit, euismod nisi sit amet, sodales justo.",
-        "price": 140.990000000000009094947017729282379150390625,
-        "discount": 0,
-        "type": "smart",
-        "strap": "titanium"
+      "brand": "Giove",
+      "model": "Z3",
+      "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+      "price": 134.99,
+      "discount": 15,
+      "type": "digital",
+      "strap": "nylon"
     },
     {
-        "brand": "Venere",
-        "model": "N4",
-        "description": "Pellentesque ut massa ut purus iaculis molestie at eu erat.",
-        "price": 145.990000000000009094947017729282379150390625,
-        "discount": 10,
-        "type": "smart",
-        "strap": "titanium"
+      "brand": "Giove",
+      "model": "Z4",
+      "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "price": 154.99,
+      "discount": 0,
+      "type": "digital",
+      "strap": "nylon"
     },
     {
-        "brand": "Mercurio",
-        "model": "P1",
-        "description": "Praesent sed augue eleifend, eleifend ipsum vitae, scelerisque ipsum.",
-        "price": 79.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "analog",
-        "strap": "nylon"
+      "brand": "Venere",
+      "model": "N1",
+      "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce euismod massa eu dolor placerat, in egestas tellus pharetra.",
+      "price": 89.99,
+      "discount": 0,
+      "type": "smart",
+      "strap": "nylon"
     },
     {
-        "brand": "Mercurio",
-        "model": "P2",
-        "description": "Ut bibendum dignissim enim, vitae consequat mauris pretium eu.",
-        "price": 94.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Venere",
+      "model": "N2",
+      "description": "Donec sed velit nec nisi rhoncus tristique sit amet sit amet odio.",
+      "price": 99.99,
+      "discount": 0,
+      "type": "smart",
+      "strap": "nylon"
     },
     {
-        "brand": "Mercurio",
-        "model": "P3",
-        "description": "Integer ut ligula euismod, lobortis ipsum at, mollis lacus. Donec tempus fringilla leo at aliquet.",
-        "price": 137.990000000000009094947017729282379150390625,
-        "discount": 0,
-        "type": "smart",
-        "strap": "titanium"
+      "brand": "Venere",
+      "model": "N3",
+      "description": "Phasellus vel arcu leo. Nulla vitae magna hendrerit, euismod nisi sit amet, sodales justo.",
+      "price": 140.99,
+      "discount": 0,
+      "type": "smart",
+      "strap": "titanium"
     },
     {
-        "brand": "Mercurio",
-        "model": "P4",
-        "description": "Quisque ac massa lacinia mauris elementum finibus luctus sed augue. Mauris risus ipsum, posuere eget blandit mattis, tincidunt nec dui. Integer quis scelerisque mauris.",
-        "price": 109.9899999999999948840923025272786617279052734375,
-        "discount": 10,
-        "type": "digital",
-        "strap": "leather"
+      "brand": "Venere",
+      "model": "N4",
+      "description": "Pellentesque ut massa ut purus iaculis molestie at eu erat.",
+      "price": 145.99,
+      "discount": 10,
+      "type": "smart",
+      "strap": "titanium"
     },
     {
-        "brand": "Saturno",
-        "model": "R1",
-        "description": "Phasellus est urna, ultricies ut congue non, rutrum non orci. Ut magna neque, malesuada ac volutpat at, ultricies nec turpis. Vivamus ac lectus eget ex gravida facilisis.",
-        "price": 69.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Mercurio",
+      "model": "P1",
+      "description": "Praesent sed augue eleifend, eleifend ipsum vitae, scelerisque ipsum.",
+      "price": 79.99,
+      "discount": 0,
+      "type": "analog",
+      "strap": "nylon"
     },
     {
-        "brand": "Saturno",
-        "model": "R2",
-        "description": "Nullam blandit, massa ut venenatis auctor, diam erat accumsan nibh, ac venenatis turpis turpis ac erat. Nunc condimentum velit ut elit finibus, a placerat erat rutrum.",
-        "price": 79.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "digital",
-        "strap": "nylon"
+      "brand": "Mercurio",
+      "model": "P2",
+      "description": "Ut bibendum dignissim enim, vitae consequat mauris pretium eu.",
+      "price": 94.99,
+      "discount": 0,
+      "type": "digital",
+      "strap": "nylon"
     },
     {
-        "brand": "Saturno",
-        "model": "R3",
-        "description": "Praesent vitae imperdiet mauris, eget porttitor lacus. Praesent gravida, risus ut iaculis volutpat, est metus pretium metus, a scelerisque justo massa sit amet lorem.",
-        "price": 99.9899999999999948840923025272786617279052734375,
-        "discount": 5,
-        "type": "smart",
-        "strap": "titanium"
+      "brand": "Mercurio",
+      "model": "P3",
+      "description": "Integer ut ligula euismod, lobortis ipsum at, mollis lacus. Donec tempus fringilla leo at aliquet.",
+      "price": 137.99,
+      "discount": 0,
+      "type": "smart",
+      "strap": "titanium"
     },
     {
-        "brand": "Saturno",
-        "model": "R4",
-        "description": "Etiam elit risus, pretium vel pellentesque vel, faucibus eu leo. Phasellus vestibulum metus non felis porttitor fringilla.",
-        "price": 89.9899999999999948840923025272786617279052734375,
-        "discount": 0,
-        "type": "smart",
-        "strap": "leather"
+      "brand": "Mercurio",
+      "model": "P4",
+      "description": "Quisque ac massa lacinia mauris elementum finibus luctus sed augue. Mauris risus ipsum, posuere eget blandit mattis, tincidunt nec dui. Integer quis scelerisque mauris.",
+      "price": 109.99,
+      "discount": 10,
+      "type": "digital",
+      "strap": "leather"
+    },
+    {
+      "brand": "Saturno",
+      "model": "R1",
+      "description": "Phasellus est urna, ultricies ut congue non, rutrum non orci. Ut magna neque, malesuada ac volutpat at, ultricies nec turpis. Vivamus ac lectus eget ex gravida facilisis.",
+      "price": 69.99,
+      "discount": 0,
+      "type": "digital",
+      "strap": "nylon"
+    },
+    {
+      "brand": "Saturno",
+      "model": "R2",
+      "description": "Nullam blandit, massa ut venenatis auctor, diam erat accumsan nibh, ac venenatis turpis turpis ac erat. Nunc condimentum velit ut elit finibus, a placerat erat rutrum.",
+      "price": 79.99,
+      "discount": 0,
+      "type": "digital",
+      "strap": "nylon"
+    },
+    {
+      "brand": "Saturno",
+      "model": "R3",
+      "description": "Praesent vitae imperdiet mauris, eget porttitor lacus. Praesent gravida, risus ut iaculis volutpat, est metus pretium metus, a scelerisque justo massa sit amet lorem.",
+      "price": 99.99,
+      "discount": 5,
+      "type": "smart",
+      "strap": "titanium"
+    },
+    {
+      "brand": "Saturno",
+      "model": "R4",
+      "description": "Etiam elit risus, pretium vel pellentesque vel, faucibus eu leo. Phasellus vestibulum metus non felis porttitor fringilla.",
+      "price": 89.99,
+      "discount": 0,
+      "type": "smart",
+      "strap": "leather"
     }
-]
+  ]
