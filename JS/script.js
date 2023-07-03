@@ -37,7 +37,7 @@ function filterWatches() {
         showRow = false;
       } else if (selectedRange === '120-160' && (price < 120 || price > 160)) {
         showRow = false;
-      } else if (selectedRange === 'others' && (price < 40 || price > 160)) {
+      } else if (selectedRange === 'all' && (price < 0)) {
         showRow = false;
       }
   
@@ -136,7 +136,7 @@ function filterWatches() {
       '40-80': '€40 - €80',
       '80-120': '€80 - €120',
       '120-160': '€120 - €160',
-      others: 'Others',
+      'all': 'All',
     };
   
     for (const key in priceRanges) {
