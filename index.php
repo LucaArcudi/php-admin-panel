@@ -5,6 +5,22 @@
 ?>
 <main>
     <div class="container">
+        <div class="mb-3">
+            <label for="brandSelect" class="form-label">Select Brand:</label>
+            <select id="brandSelect" class="form-select">
+                <option value="">All Brands</option>
+            </select>
+        </div>
+        <div class="filters mb-3">
+            <label>
+                <input type="checkbox" id="withDiscountCheckbox"> Con sconto
+            </label>
+            <label>
+                <input type="checkbox" id="withoutDiscountCheckbox"> Senza sconto
+            </label>
+        </div>
+        <select id="priceRangeSelect">
+        </select>
         <table class="table">
             <thead>
                 <tr>
